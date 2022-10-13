@@ -1,7 +1,5 @@
 @import url(reset.css);
-*{
-    outline: 1px dashed rgb(0, 0, 0);
-}
+
 body{
     background-color: rgba(248, 210, 161, 0.4);
     font-weight: 700;
@@ -178,22 +176,14 @@ h4{
 .fa-square-twitter{
     color: coral;
     transition: 0.5s;
-      
-      
 }
 .fa-square-facebook{
     transition: 0.5s;
     color: coral;
-    display: flex;
-    margin-left: -1em ;
-    margin-top: -2em; 
 }
 .fa-linkedin{
     transition: 0.5s;
     color: coral;
-    display: flex;
-    margin-left: -1em ;
-    margin-top: -1em; 
 }
 .fa-square-twitter:hover{
     color: #333;
@@ -210,4 +200,13 @@ h4{
 .fa-square-facebook:hover{
     color: #333;
     transition: 0.5s;
+}
+#icons{
+    position: relative;left:25px;top:5px;
+}
+.fa-square-facebook{
+    position: relative;left:-50px;top: -144px;
+}
+.fa-linkedin{
+    position: relative;left: -50px;top:-48px;
 }

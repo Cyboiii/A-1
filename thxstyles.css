@@ -54,9 +54,7 @@ h2{
 #footbar{
     margin-right: 70em;
 }
-#footbar ul{
-    margin-right: 70em;
-}
+
 #footbar li a:hover{
     color: coral;
     transition: 0.5s;
@@ -95,25 +93,14 @@ h2{
 .fa-square-twitter{
     color: coral;
     transition: 0.5s;
-      
-      
 }
 .fa-square-facebook{
     transition: 0.5s;
     color: coral;
-    display: flex;
-    margin: .5em;
-    margin-left: -1em;
-    margin-top: -2.5em;
-   
 }
 .fa-linkedin{
     transition: 0.5s;
     color: coral;
-    display: flex;
-    margin: .5em;
-    margin-left: -1em;
-    margin-top: -1em;    
 }
 .fa-square-twitter:hover{
     color: #333;
@@ -130,4 +117,13 @@ h2{
 .fa-square-facebook:hover{
     color: #333;
     transition: 0.5s;
+}
+#icons{
+    position: relative;left:25px;top:5px;
+}
+.fa-square-facebook{
+    position: relative;left:-50px;top: -144px;
+}
+.fa-linkedin{
+    position: relative;left: -50px;top:-48px;
 }
