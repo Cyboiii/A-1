@@ -12,7 +12,7 @@ legend{
 #section3{
     font-family: 'Zen Dots', cursive;
 }
-p{
+p, #creds{
     font-family: 'Oswald', sans-serif;
 }
 body{
