@@ -1,4 +1,17 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+h1{
+    font-family: 'Nerko One', cursive;
+}
+h2{
+    font-family: 'Zen Dots', cursive;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
 
 body{
     background-color: rgba(248, 210, 161, 0.4);
@@ -7,9 +20,6 @@ body{
 hr {
     border: 3px solid #333;
 }
-
-
-
 h1{
     font-size: 25pt;
     text-align: center;
@@ -135,7 +145,23 @@ h4{
     width: 80%;
 }
 #footbar{
-    margin-right: 70em;
+    display: flex;
+    display: inline;
+}
+#footbarNav{
+    display: flex;
+    flex-direction: column;
+}
+#icons{
+    display: flex;
+    justify-content: right;
+}
+#iconsList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    justify-content: right;
+    margin-top: -100px;
 }
 
 #footbar li a:hover{
@@ -153,13 +179,6 @@ h4{
 }
 #pfoot1 p{
     margin-right: 50em;
-}
-#icons{
-    margin-left: 70em;
-    margin-right: 40em;
-    margin-bottom: 90em;
-    margin-top: -10em;
-    padding: 5%;
 }
 
 #foot li a:hover{
@@ -200,13 +219,4 @@ h4{
 .fa-square-facebook:hover{
     color: #333;
     transition: 0.5s;
-}
-#icons{
-    position: relative;left:25px;top:5px;
-}
-.fa-square-facebook{
-    position: relative;left:-50px;top: -144px;
-}
-.fa-linkedin{
-    position: relative;left: -50px;top:-48px;
 }
